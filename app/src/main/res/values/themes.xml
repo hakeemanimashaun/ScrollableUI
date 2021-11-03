@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeekThreeUI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/lightgrey</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!--button styles-->
+    <style name="buttons">
+        <item name="cornerRadius" >6dp</item>
+        <item name="strokeColor">@color/black</item>
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="follow_button">
+        <item name="cornerRadius">6dp</item>
+        <item name="strokeColor">@color/black</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <!-- text styles-->
+    <style name="jane_text_view">
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+    <style name="location_text_view">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+    <style name="good_morning_text_view">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+    <!-- picture style-->
+    <style name="profile_pic">
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+</resources>
